@@ -83,12 +83,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\RevitAPI_ClassLibrary\RevitAPI_ClassLibrary\RevitAPI_ClassLibrary.csproj">
-      <Project>{c9ef1ebc-54ed-4516-8069-5d45d81072af}</Project>
-      <Name>RevitAPI_ClassLibrary</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>xcopy "$(TargetDir)*.*" "D:\RevitAPITrainig\" /y /i
