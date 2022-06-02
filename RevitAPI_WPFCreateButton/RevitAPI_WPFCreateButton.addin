@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Assembly>"D:\RevitAPITrainig\RevitAPI_WPFCreateButton.dll"</Assembly>
+    <AddInId>D97B857D-F90E-4694-B5D6-734C8A37E3A9</AddInId>
+    <FullClassName>RevitAPI_WPFCreateButton.Main</FullClassName>
+    <VendorId>ADSK</VendorId>
+    <Text>Форма с кнопками WPF</Text>
+  </AddIn>
+</RevitAddIns>
